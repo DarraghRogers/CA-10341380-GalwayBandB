@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Galway Bay B&amp;B Cheap Bookings</title>
+		<link rel='stylesheet' href='CSS/StyleSheet.css' />
+	</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<h1>Galway Bay B&amp;B </h1> 
+				<img id="headimg" src="Images/headpic.jpg" alt="imgofhouse"/>
+			</header>
+			<nav>
+				<ul>
+					<li><a href="Index.html">Home</a></li>
+					<li><a href="AboutUs.html">About Us</a></li>
+					<li><a href="Bookings.html">Bookings</a></li>
+					<li><a href="Testimonials.html">Testimonials</a></li>
+					<li><a href="Tourism.html">Tourism</a></li>
+					<li><a href="FAQ.html">FAQ</a></li>
+					<li><a href="UsefulLinks.html">Useful Links</a></li>
+				</ul>
+			</nav>
+			<div id="bookings" >
+				<h2>Booking Enquiry</h2>
+				<section>
+					<p>
+					To enquire about a booking for our B&amp;B Please fill out the required details
+					and we will try and get back as soon as possible.
+					</p>
+				</section>
+				<div id="ContactForm">
+					<form action="script.php" method="post">
+						<fieldset>
+							<legend>Booking enquire</legend>
+								<fieldset>
+										<legend>Room Type</legend>											
+												<p><input type="checkbox" name="roomtype" value="Single" tabindex="1" />Single (Sleeps MAX 1)</p>
+												<p><input type="checkbox" name="roomtype" value="Double/Twin" tabindex="2" />Double/Twin (Sleeps MAX 2)</p>
+												<p><input type="checkbox" name="roomtype" value="TripleRoom" tabindex="3" />Triple Room (Sleeps MAX 3)</p>
+												<p><input type="checkbox" name="roomtype" value="FamilyRoom" tabindex="4" />Family Room (Sleeps MAX 2 adults and 2 Children)</p>
+								</fieldset>
+							<fieldset>
+								<legend>Customer Details</legend>
+								Please Enter:
+									
+										<p>Name: <input required type="text" name="Fullname" tabindex="5" /></p>
+										<p>Phone Number: <input type="tel" name="PhoneNumber" tabindex="6" /></p>
+										<p>Email: <input type="email" name="Email" tabindex="7" /></p>
+										
+							</fieldset>
+							<fieldset>
+								<legend>Date and time of Booking</legend>
+									
+										Check in Date and Time:<p><input required type="date" name="CheckIn" tabindex="8" /></P>
+															   <p><input required type="time" name="CheckIn" tabindex="9" /></P>
+										Check out Date and Time:<p><input required type="date" name="CheckOut" tabindex="10" /></P>
+																<p><input required type="time" name="CheckOut" tabindex="11" /></P>
+							</fieldset>
+							<fieldset>
+								<legend>Comments</legend>
+								Any further requirements please specify:
+									<p><textarea rows="10" cols="25" tabindex="12" ></textarea></P>
+							</fieldset>
+							<input type="submit"  name="resetBtn" value="Submit the form" />
+						</fieldset>
+					</form>
+				</div>
+			</div>
+			<footer>
+				<div id="contactinfo">
+				
+				<p><strong>Address: </strong>Galway bay B&amp;B,
+				Galway City,
+				Galway</p>
+				<p><strong>Phone: </strong>
+				+00353 555 9000
+				</p>
+				<p><strong>Email: </strong>
+				galwaybayb&amp;b@bandb.ie
+				</p>
+				<img id="2013" src="Images/CertificateOfExcellence2013.jpg" alt="CertificateOfExcellence2013" width="100" height="100" />
+				<img id="2015" src="Images/CertificateOfExcellence20152.jpg" alt="CertificateOfExcellence2015 "width="100" height="100" />
+				
+				</div>
+					<div id="foot">
+					
+						<div id="socialmedia">
+						
+						<p>Follow us and subscribe</p>
+						
+							<a class="facebook" href="https://en-gb.facebook.com/login/"><img src="Images/facebookicon.ico" alt="facebook" width="50" height="50" /></a>
+							
+							<a class="twitter" href="https://twitter.com/?lang=en"><img src="Images/twitterbird.ico" alt="twitter" width="50" height="50" /></a>
+							
+							<a class="instagram" href="https://www.instagram.com/?hl=en"><img src="images/instaicon.ico" alt="instagram" width="50" height="50" /></a>
+							
+						</div>	
+					</div>
+						
+				</footer>
+			
+		</div>
+	</body>
+</html>
